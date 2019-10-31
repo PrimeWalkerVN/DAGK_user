@@ -12,6 +12,11 @@ let checkoutRouter = require('./routes/checkout');
 let confirmationRouter = require('./routes/confirmation');
 let blogRouter = require('./routes/blog');
 let singleBlogRouter = require('./routes/single-blog');
+let loginRouter = require('./routes/login');
+let trackingRouter = require('./routes/tracking');
+let elementsRouter = require('./routes/elements');
+let registrationRouter = require('./routes/registration');
+let contactRouter = require('./routes/contact');
 
 
 
@@ -37,6 +42,12 @@ app.use('/cart',cartRouter);
 app.use('/confirmation',confirmationRouter);
 app.use('/blog',blogRouter);
 app.use('/single-blog',singleBlogRouter);
+app.use('/login',loginRouter);
+app.use('/tracking',trackingRouter);
+app.use('/elements',elementsRouter);
+app.use('/registration',registrationRouter);
+app.use('/contact',contactRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
