@@ -66,11 +66,12 @@ justify-content: flex-start;
   transition: 0.4s;
   margin: 0;
   padding: 0;
+  padding-left: 10px;
  
 }
 
 .searchbox:hover > .search-txt{
-width: 150px;
+width: 200px;
 }
 
 /*----------------------------------------------------*/
@@ -3587,7 +3588,7 @@ h6 {
 .cart_inner .table tbody tr.bottom_button td:last-child {
   width: 60px; }
 .cart_inner .table tbody tr.bottom_button td .cupon_text {
-  margin-left: -446px; }
+  margin-left: -480px; }
   .cart_inner .table tbody tr.bottom_button td .cupon_text input {
     width: 200px;
     padding: 0px 15px;
@@ -3634,6 +3635,8 @@ h6 {
 .cart_inner .table tbody tr.shipping_area .shipping_box {
   margin-left: -250px;
   text-align: right; }
+  .shipping_area h5 {
+    margin-left: -200px; }
   .cart_inner .table tbody tr.shipping_area .shipping_box .list li {
     margin-bottom: 12px; }
     .cart_inner .table tbody tr.shipping_area .shipping_box .list li:last-child {

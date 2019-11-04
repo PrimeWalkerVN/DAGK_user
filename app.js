@@ -10,13 +10,11 @@ let singleProductRouter = require('./routes/single-product');
 let cartRouter = require('./routes/cart');
 let checkoutRouter = require('./routes/checkout');
 let confirmationRouter = require('./routes/confirmation');
-let blogRouter = require('./routes/blog');
-let singleBlogRouter = require('./routes/single-blog');
 let loginRouter = require('./routes/login');
 let trackingRouter = require('./routes/tracking');
-let elementsRouter = require('./routes/elements');
 let registrationRouter = require('./routes/registration');
-let contactRouter = require('./routes/contact');
+let forgotRouter = require('./routes/forgot');
+let profileRouter = require('./routes/profile');
 
 
 
@@ -40,13 +38,11 @@ app.use('/single-product',singleProductRouter);
 app.use('/checkout',checkoutRouter);
 app.use('/cart',cartRouter);
 app.use('/confirmation',confirmationRouter);
-app.use('/blog',blogRouter);
-app.use('/single-blog',singleBlogRouter);
 app.use('/login',loginRouter);
 app.use('/tracking',trackingRouter);
-app.use('/elements',elementsRouter);
 app.use('/registration',registrationRouter);
-app.use('/contact',contactRouter);
+app.use('/forgot',forgotRouter);
+app.use('/profile',profileRouter);
 
 
 // catch 404 and forward to error handler
